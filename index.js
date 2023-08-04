@@ -10,5 +10,6 @@ client.on('ready', bot => {
 
     console.log(`${bot.user.username} đã online.`)
 })
-
 client.login(require('./config/fbstate.json'), true)
+
+
